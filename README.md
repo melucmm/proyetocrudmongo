@@ -1,6 +1,5 @@
-Este proyecto es una API REST hecha con Node.js, Express y Mongo
-Permite manejar usuarios, servicios y turnos con operaciones básicas como crear, ver, editar y eliminar datos
-
+Este proyecto es una API REST hecha con Node.js, Express y MongoDB.
+Permite manejar usuarios, servicios y turnos con operaciones básicas como crear, ver, editar y eliminar datos.
 Tecnologías
 Node.js
 Express
@@ -12,16 +11,16 @@ bcrypt
 JWT
 Estructura
 proyecto-crud-mongodb/
-├── app.js
-├── .env
-├── package.json
-└── src/
-    ├── models/
-    ├── controllers/
-    ├── services/
-    ├── routes/
-    ├── config/
-    └── middleware/
+ app.js
+ .env
+ package.json
+src/
+models/
+controllers/
+services/
+routes/
+config/
+middleware/
 Modelos
 Usuario
 {
